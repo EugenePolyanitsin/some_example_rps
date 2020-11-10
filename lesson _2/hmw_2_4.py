@@ -3,8 +3,6 @@
 # Строки необходимо пронумеровать.
 # Если в слово длинное, выводить только первые 10 букв в слове.
 
-# user_str = input('Введите строку:')
-# x = user_str.split(' ')
 user_string = input('Введите значения через пробел:')
 user_elem = user_string.split(' ')
 for i, user_elem in enumerate(user_elem):
