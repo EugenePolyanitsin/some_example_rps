@@ -2,7 +2,7 @@ def my_func(x, y):
     return 1 / x ** abs(y)
 
 
-print(my_func(4, -4))
+print(my_func(6, -6))
 
 
 def my_func_1(x, y):
