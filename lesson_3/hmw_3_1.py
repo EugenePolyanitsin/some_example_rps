@@ -1,12 +1,13 @@
-def my_func(a, b):
+def my_func(*args):
     try:
-        a = int(input("Input dividend: "))
-        b = int(input("Input divider: "))
-        res = a / b
+        arg1 = int(input("Input dividend: "))
+        arg2 = int(input("Input divider: "))
+        res = arg1 / arg2
     except ValueError:
         return 'Value error'
     except ZeroDivisionError:
         return "Wrong devider! You can't use zero as a devider"
+
     return res
 
 
