@@ -1,4 +1,4 @@
-from sys import argv
+from sys import  argv
 
 def my_func(time, rate, bonus):
     try:
