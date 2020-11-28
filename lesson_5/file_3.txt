@@ -1,0 +1,5 @@
+Petr 11000
+Georgiy 25000
+Sergey 13000
+Ira 10000
+
